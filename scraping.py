@@ -7,11 +7,14 @@
 #        \/         \/       \/         \/                     \/        \/              \/        \/       \/               \/
 #######################################################################################################################################
 #@felzosqrt
+#git@github.com:maximsqrt/moviescrape.git
 ################################################
 #IDEA: Access the site for the top 1,000 movies. 
 #Check the headers under the Fetch/XHR section.
 #Identify the GET method (it retrieves the first 50 movies).
 #Modify the request to fetch all 1,000 and send it to the backend URL.
+
+
 
 import os 
 from urllib.parse import urlunsplit, urlencode, quote
